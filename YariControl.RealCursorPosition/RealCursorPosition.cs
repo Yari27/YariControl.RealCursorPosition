@@ -5,6 +5,9 @@ using System.Windows.Forms;
 
 namespace YariControl.RealCursorPosition
 {
+    /// <summary>
+    /// 
+    /// </summary>
     public static class ScreenPixelColor
     {
         [DllImport("user32.dll")]
@@ -42,6 +45,9 @@ namespace YariControl.RealCursorPosition
 
     }
 
+    /// <summary>
+    /// 
+    /// </summary>
     public static class Screenshot
     {
         /// <summary>
@@ -73,6 +79,9 @@ namespace YariControl.RealCursorPosition
         }
     }
 
+    /// <summary>
+    /// 
+    /// </summary>
     public static class DisplayScreenTools
     {
         [DllImport("gdi32.dll")]
