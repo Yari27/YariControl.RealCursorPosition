@@ -46,7 +46,7 @@ namespace YariControl.RealCursorPosition
     }
 
     /// <summary>
-    /// 
+    /// Take Screenshot from screen
     /// </summary>
     public static class Screenshot
     {
