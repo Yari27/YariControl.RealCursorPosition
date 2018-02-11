@@ -29,7 +29,8 @@ Example use:
   }
 `````
 
-[Install Package](https://www.nuget.org/packages/YariControl.RealCursorPosition/1.0.0)
+[Install Package](https://www.nuget.org/packages/YariControl.RealCursorPosition/1.0.2)
 `````
-Install-Package YariControl.RealCursorPosition -Version 1.0.0
+Install-Package YariControl.RealCursorPosition -Version 1.0.2
 `````
+Created on .NET.Framework 4.5.2
