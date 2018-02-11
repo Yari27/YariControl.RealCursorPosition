@@ -6,9 +6,9 @@ using System.Runtime.InteropServices;
 // zestaw atrybutów. Zmień wartości tych atrybutów, aby zmodyfikować informacje
 // powiązane z zestawem.
 [assembly: AssemblyTitle("YariControl.RealCursorPosition")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Get Real Cursor Position and Pixel Color")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Jarosław Pietras")]
 [assembly: AssemblyProduct("YariControl.RealCursorPosition")]
 [assembly: AssemblyCopyright("Copyright ©  2018 Jarosław Pietras")]
 [assembly: AssemblyTrademark("")]
