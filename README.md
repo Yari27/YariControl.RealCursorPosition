@@ -28,3 +28,8 @@ Example use:
       pictureBox1.Image = Screenshot.TakeCenterSnapshot(point, pictureBox1.Size);//Get center screen shot
   }
 `````
+
+[Install Package](https://www.nuget.org/packages/YariControl.RealCursorPosition/1.0.0)
+`````
+Install-Package YariControl.RealCursorPosition -Version 1.0.0
+`````
