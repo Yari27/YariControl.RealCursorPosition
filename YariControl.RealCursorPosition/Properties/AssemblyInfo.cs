@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("YariControl.RealCursorPosition")]
-[assembly: AssemblyCopyright("Copyright ©  2018")]
+[assembly: AssemblyCopyright("Copyright ©  2018 Jarosław Pietras")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
