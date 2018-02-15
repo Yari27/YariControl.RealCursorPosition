@@ -1,18 +1,25 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>YariControl.RealCursorPosition</id>
-    <version>1.0.2</version>
+    <id>$id$</id>
+    <version>$version$</version>
     <title>RealCursorPosition</title>
-    <authors>Jarosław Pietras</authors>
-    <owners>jarko2227</owners>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
     <licenseUrl>https://github.com/Yari27/YariControl.RealCursorPosition/blob/master/LICENSE</licenseUrl>
     <projectUrl>https://github.com/Yari27/YariControl.RealCursorPosition</projectUrl>
-    <iconUrl>https://raw.githubusercontent.com/Yari27/YariControl.RealCursorPosition/master/nuget-package-logo.png</iconUrl>
+    <iconUrl>https://raw.githubusercontent.com/Yari27/YariControl.RealCursorPosition/master/RealCursorPosition_logo.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Get Real Cursor Position and Pixel Color</description>
+    <description>Get Real Cursor Position and Pixel Color.</description>
+    <summary>Get Real Cursor Position and Pixel Color.</summary>
     <releaseNotes></releaseNotes>
-    <copyright>Copyright ©  2018 Jarosław Pietras</copyright>
+    <copyright>$copyright$</copyright>
+    <language>en-US</language>
     <tags>cursor position color pixel real font zoom</tags>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.Windows.Forms" targetFramework="" />
+      <frameworkAssembly assemblyName="System.Drawing" targetFramework="" />
+      <frameworkAssembly assemblyName="System" targetFramework="" />
+    </frameworkAssemblies>
   </metadata>
 </package>

@@ -6,7 +6,7 @@ using System.Windows.Forms;
 namespace YariControl.RealCursorPosition
 {
     /// <summary>
-    /// 
+    /// ScreenPixelColor
     /// </summary>
     public static class ScreenPixelColor
     {
@@ -80,7 +80,7 @@ namespace YariControl.RealCursorPosition
     }
 
     /// <summary>
-    /// 
+    /// DisplayScreenTools
     /// </summary>
     public static class DisplayScreenTools
     {
@@ -168,7 +168,35 @@ namespace YariControl.RealCursorPosition
         public static Point GetRoundedRealPoint(Point cursor)
         {
             return new Point((int)Math.Round(cursor.X * GetFontZoom.X, 0),
-                (int)Math.Round(cursor.Y * GetFontZoom.Y, 0));
+                (int)System.Math.Round(cursor.Y * GetFontZoom.Y, 0));
+        }
+
+        /// <summary>
+        /// Get screen dots per inch (DPI)
+        /// </summary>
+        public static Point GetScreenDpi
+        {
+            get
+            {
+                Point zoom = GetFontZoomPercentage;//The standard DPI settings are 100% (96 DPI), 125% (120 DPI), and 150% (144 DPI).
+                if (zoom.X == zoom.Y)
+                {
+                    switch (zoom.X)
+                    {
+                        case 100:
+                            return new Point(96, 96);
+                        case 125:
+                            return new Point(120, 120);
+                        case 150:
+                            return new Point(144, 144);
+                        case 175:
+                            return new Point(168, 168);
+                        default:
+                            return new Point((zoom.X * 96) / 100, (zoom.Y * 96) / 100);
+                    }
+                }
+                else return new Point((zoom.X * 96) / 100, (zoom.Y * 96) / 100);
+            }
         }
 
     }
