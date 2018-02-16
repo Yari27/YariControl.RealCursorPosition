@@ -22,7 +22,8 @@ Example use:
       point = DisplayScreenTools.GetRoundedRealPoint(Cursor.Position);
 
       label1.Text = "Position: " + point.ToString();//print real position
-      label2.Text = "Font Zoom: " + DisplayTools.GetFontZoom + "%";//print Font Zoom percent
+      label2.Text = "Font Zoom: " + DisplayScreenTools.GetFontZoom + "%";//print Font Zoom percent
+      label3.Text = "Screen DPI: " + DisplayScreenTools.GetScreenDpi;//print screen dpi
 
       panel1.BackColor = ScreenPixelColor.GetPixelColor(point);//pixel color from real cursor position
       pictureBox1.Image = Screenshot.TakeCenterSnapshot(point, pictureBox1.Size);//Get center screen shot
