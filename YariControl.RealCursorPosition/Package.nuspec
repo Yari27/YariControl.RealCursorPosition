@@ -15,11 +15,9 @@
     <releaseNotes></releaseNotes>
     <copyright>$copyright$</copyright>
     <language>en-US</language>
-    <tags>cursor position color pixel real font zoom</tags>
+    <tags>cursor position color pixel real font zoom dpi</tags>
     <frameworkAssemblies>
-      <frameworkAssembly assemblyName="System.Windows.Forms" targetFramework="" />
       <frameworkAssembly assemblyName="System.Drawing" targetFramework="" />
-      <frameworkAssembly assemblyName="System" targetFramework="" />
     </frameworkAssemblies>
   </metadata>
 </package>
