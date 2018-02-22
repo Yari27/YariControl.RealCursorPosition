@@ -77,6 +77,7 @@ namespace YariControl.RealCursorPosition
             g.CopyFromScreen(new Point(source.X - size.Width, source.Y - size.Height), new Point(0, 0), size);
             return bmp;
         }
+
     }
 
     /// <summary>
@@ -151,24 +152,24 @@ namespace YariControl.RealCursorPosition
         }
 
         /// <summary>
-        /// Take the real cursor position.
+        /// Take the real point position.
         /// </summary>
-        /// <param name="cursor">Cursor position read.</param>
-        /// <returns>Real cursor position</returns>
+        /// <param name="cursor">Point position</param>
+        /// <returns>Real point position</returns>
         public static PointF GetRealPoint(Point cursor)
         {
             return new PointF(cursor.X * GetFontZoom.X, cursor.Y * GetFontZoom.Y);
         }
 
         /// <summary>
-        /// Take the real rounded cursor position.
+        /// Take the real rounded point position.
         /// </summary>
-        /// <param name="cursor">Cursor position read.</param>
-        /// <returns>Real rounded cursor position</returns>
+        /// <param name="cursor">Point position </param>
+        /// <returns>Real rounded point position</returns>
         public static Point GetRoundedRealPoint(Point cursor)
         {
             return new Point((int)Math.Round(cursor.X * GetFontZoom.X, 0),
-                (int)System.Math.Round(cursor.Y * GetFontZoom.Y, 0));
+                (int)Math.Round(cursor.Y * GetFontZoom.Y, 0));
         }
 
         /// <summary>
@@ -199,5 +200,37 @@ namespace YariControl.RealCursorPosition
             }
         }
 
+    }
+
+    /// <summary>
+    /// 
+    /// </summary>
+    public static class RealCursor
+    {
+        /// <summary>
+        /// Get the real cursor position.
+        /// </summary>
+        /// <returns>Real cursor position</returns>
+        public static PointF Position
+        {
+            get
+            {
+                return new PointF(Cursor.Position.X * DisplayScreenTools.GetFontZoom.X,
+                    Cursor.Position.Y * DisplayScreenTools.GetFontZoom.Y);
+            }
+        }
+
+        /// <summary>
+        /// Get the real rounded cursor position.
+        /// </summary>
+        /// <returns>Real rounded cursor position</returns>
+        public static Point RoundedPosition
+        {
+            get
+            {
+                return new Point((int)Math.Round(Position.X, 0),
+                    (int)Math.Round(Position.Y, 0));
+            }
+        }
     }
 }
