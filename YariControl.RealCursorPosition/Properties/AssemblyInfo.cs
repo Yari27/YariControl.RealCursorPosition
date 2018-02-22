@@ -1,4 +1,5 @@
-﻿using System.Reflection;
+﻿using System.Resources;
+using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
@@ -6,7 +7,7 @@ using System.Runtime.InteropServices;
 // zestaw atrybutów. Zmień wartości tych atrybutów, aby zmodyfikować informacje
 // powiązane z zestawem.
 [assembly: AssemblyTitle("YariControl.RealCursorPosition")]
-[assembly: AssemblyDescription("Get Real Cursor Position and Pixel Color")]
+[assembly: AssemblyDescription("Get Real Cursor Position (DPI, Font Zoom)")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Jarosław Pietras")]
 [assembly: AssemblyProduct("YariControl.RealCursorPosition")]
@@ -34,3 +35,5 @@ using System.Runtime.InteropServices;
 // [assembly: AssemblyVersion("1.0.*")]
 [assembly: AssemblyVersion("1.0.2.2")]
 [assembly: AssemblyFileVersion("1.0.2.2")]
+[assembly: NeutralResourcesLanguage("en")]
+

@@ -10,7 +10,7 @@
     <projectUrl>https://github.com/Yari27/YariControl.RealCursorPosition</projectUrl>
     <iconUrl>https://raw.githubusercontent.com/Yari27/YariControl.RealCursorPosition/master/RealCursorPosition_logo.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Get Real Cursor Position and Pixel Color.</description>
+    <description>Get Real Cursor Position (DPI, Font Zoom).</description>
     <summary>Get Real Cursor Position and Pixel Color.</summary>
     <releaseNotes></releaseNotes>
     <copyright>$copyright$</copyright>

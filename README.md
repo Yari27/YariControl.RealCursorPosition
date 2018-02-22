@@ -40,4 +40,4 @@ using YariControl.RealCursorPosition;
 `````
 PM> Install-Package YariControl.RealCursorPosition -Version 1.0.2.1
 `````
-`Created on .NET.Framework 3.5`
+`Created on .NET.Framework 3.0`

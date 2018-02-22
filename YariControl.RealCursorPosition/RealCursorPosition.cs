@@ -203,7 +203,7 @@ namespace YariControl.RealCursorPosition
     }
 
     /// <summary>
-    /// 
+    /// Cursor positon
     /// </summary>
     public static class RealCursor
     {
