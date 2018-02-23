@@ -38,6 +38,6 @@ using YariControl.RealCursorPosition;
 
 ## NuGet package [![NuGet](https://img.shields.io/nuget/v/YariControl.RealCursorPosition.svg)](https://www.nuget.org/packages/YariControl.RealCursorPosition/) [![NuGet](https://img.shields.io/nuget/dt/YariControl.RealCursorPosition.svg)](https://www.nuget.org/packages/YariControl.RealCursorPosition/)
 `````
-PM> Install-Package YariControl.RealCursorPosition -Version 1.0.2.1
+PM> Install-Package YariControl.RealCursorPosition -Version 1.0.2.2
 `````
 `Created on .NET.Framework 3.0`
